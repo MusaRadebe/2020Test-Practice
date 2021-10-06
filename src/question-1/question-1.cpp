@@ -1,3 +1,4 @@
+
 #include <string>
 #include <algorithm>
 #include <iostream>
@@ -7,7 +8,6 @@
 
 TEST_CASE("No character matching")
 {
-
     std::string s1 = "HelloThere!";
     std::string s2 = "Myvct";
 
@@ -61,8 +61,3 @@ TEST_CASE("Last character matching")
     CHECK(ch == 'g');
 
 }
-}
-
-
-
-
